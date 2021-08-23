@@ -18,15 +18,16 @@ h1 {
 
 
 p {
-  
+
   font-family: Helvetica;
   color: white;
   text-align: right;
   font-size: 25px;
   border: 20px;
   height: 300px;
+  margin: 1%;
 
-  
+
 }
 
 
@@ -39,36 +40,38 @@ p {
 #p1 {
   background-color: blue;
   width: 100%
-  
-
 }
+
 #p2 {
   background-color: black;
   width: 100%
 }
 #p3 {
   background-color: greenyellow;
- 
+
 }
 
+#prueba {
+  background-color: red;
+}
 
 /********** Large devices only **********/
-@media (min-width: 992px) 
+@media (min-width: 992px)
 
 {
 
   #p1 {
-    width: 33.3%;
+    width: 30%;
     float: left;
     padding: 10px;
   }
   #p2 {
-    width: 33.3%;
+    width: 30%;
     float: left;
     padding: 10px;
   }
   #p3 {
-    width: 33.3%; 
+    width: 30%;
     float: left;
     padding: 10px;
   }
@@ -76,18 +79,20 @@ p {
 
 
 /********** Medium devices only **********/
-@media (min-width: 992px) and (max-width: 1199px) 
+@media (min-width: 768px) and (max-width: 991px)
 {
   #p1 {
-    width: 50%;
+    width: 48%;
     float: left;
   }
   #p2 {
-    width: 50%;
+    width: 48%;
     float: left;
   }
   #p3 {
-    width: 100%
+    width: 98%;
+    float: left;
+
 }
 }
 
@@ -95,12 +100,8 @@ p {
 </head>
 <body>
 <h1>Our Menu</h1>
-
-<p id="p1">Chicken</p>
-<p id="p2">Beef</p>
-<p id="p3">Sushi</p>
-
-
-
+<p id="p1"> Chicken <br><br> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vehicula elit vel velit egestas consequat. </p>
+<p id="p2">Beef<br><br> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vehicula elit vel velit egestas consequat. </p>
+<p id="p3">Sushi<br><br> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vehicula elit vel velit egestas consequat. </p>
 </body>
 </html>
